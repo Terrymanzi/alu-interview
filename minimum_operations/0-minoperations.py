@@ -1,4 +1,6 @@
-nimum operations to reach n characters
+#!/usr/bin/python3
+"""
+Minimum operations to reach n characters
 """
 
 
