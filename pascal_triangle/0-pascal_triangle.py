@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """pascal's triangle"""
 def pascal_triangle(n):
+    """ function to return a list of lists for pascla's triangle
+    """
     if n <= 0:
         return []
     #first row
