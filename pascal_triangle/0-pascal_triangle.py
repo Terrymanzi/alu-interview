@@ -7,14 +7,14 @@ def pascal_triangle(n):
     """
     if n <= 0:
         return []
-#first row
+# first row
     triangle = [[1]]
 # start from the second row
-    i = 1  
-    
+    i = 1
+
     while i < n:
-#every row should start with 1
-        row = [1]  
+    # every row should start with 1
+        row = [1]
         j = 1
         while j < i:
             row.append(triangle[i - 1][j - 1] + triangle[i - 1][j])
@@ -22,5 +22,5 @@ def pascal_triangle(n):
         row.append(1)
         triangle.append(row)
         i += 1
-    
+
     return triangle
