@@ -13,7 +13,7 @@ def pascal_triangle(n):
     i = 1
 
     while i < n:
-    # every row should start with 1
+        # every row should start with 1
         row = [1]
         j = 1
         while j < i:
